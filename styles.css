@@ -5,7 +5,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(background.jpg)
 }
 
 .container {

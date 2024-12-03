@@ -8,6 +8,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(background.jpg);
+    padding-top: 50px; /* Adjust based on nav height */
+    margin: 0; /* Reset default margin */
 }
 
 .container {
@@ -87,7 +89,3 @@ nav a:hover {
 }
 
 /* Add some top padding to the body to prevent overlap */
-body {
-    padding-top: 50px; /* Adjust based on nav height */
-    margin: 0; /* Reset default margin */
-}

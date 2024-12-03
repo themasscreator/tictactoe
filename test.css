@@ -1,0 +1,11 @@
+.roundedSquare {
+    width: 50vh;
+    height: 50vh;
+    background-color: aquamarine;
+    border: 2vh solid rgb(145, 2, 31);
+    border-radius: 60px;
+    position: absolute; /* Enable absolute positioning */
+    top: 50%; /* Move down 50% of the viewport height */
+    left: 50%; /* Move right 50% of the viewport width */
+    transform: translate(-50%, -50%); /* Adjust position back by half the width and height */
+}
